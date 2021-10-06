@@ -1,0 +1,164 @@
+
+body {
+    font-family: 'Rubik', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: black;
+	font-size: 16px;
+}
+
+*  *::after *::before{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: #82868f;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+    list-style-type: none;
+}
+
+body{
+    background-color: #0d1323;
+}
+
+.container{
+    margin: 155px 157px;
+    width: 1057px;
+    height: 475px;
+    display: flex;
+    flex-direction: row;
+}
+
+.user{
+    display: block;
+    border-radius: 20px;
+    width: 245px;
+    height: 340px;
+    background-color: #5746ea;
+}
+
+.user img{
+    border: 3px solid white;
+    border-radius: 100%;
+    width: 82px;
+    height: 82px;
+    margin: 35px 30px;
+}
+.user p{
+    font-size: 16px; 
+}
+.user h3{
+    font-size: 35px; 
+}
+.user h3, p{
+    margin-left:30px;
+    color: #c3c0e3;
+}
+
+.footerBlock{
+    margin-top: -10px;
+    border-radius: 20px;
+    width: 245px;
+    height: 187px;
+    background-color: #1d204b;
+}
+
+.footerBlock ul{
+    margin-left: 30px;
+    padding-top: 50px;
+}
+
+.footerBlock li{
+    padding-bottom: 10px;
+}
+
+.footerBlock a:hover{
+    color: white; /* Цвет ссылки при наведении на нее курсора мыши */  
+}
+
+.boxes{
+    position: relative;
+    display: block;
+    width: 242px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.boxes img{
+    padding-left: 160px;
+    padding-right: 35px;
+    height: 47px;
+    width: 47px;
+    border-radius: 10px;
+}
+
+.data{
+    position: relative;
+    z-index: 100;
+    background-color: #1d204b;
+    margin-top:-25px;
+    border-radius: 20px;
+    height: 203px;
+}
+
+.data h1{
+    text-transform: none;
+    font-size: 16px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.data h3{
+    text-transform: none;
+    font-size: 40px;
+    color: white;
+    padding-left: 30px;
+}
+
+.data p{
+    text-transform: none;
+    font-size: 10px;
+    color: gray;
+    margin-top: -20px;
+}
+
+.data a{
+    background: url("../images/icon-ellipsis.svg") no-repeat;
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.data h1,img{
+    display: flex;
+}
